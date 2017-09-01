@@ -84,6 +84,7 @@ bla
 
 %prep
 %setup -n %{name}-%{unmangled_version}
+[ -f "AUTHORS" ] || cp "AUTHORS.in" "AUTHORS"
 
 %build
 %{pythonbin} setup.py build
