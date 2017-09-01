@@ -101,7 +101,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc README AUTHORS COPYING
 
 %changelog
-* Wed Apr 09 2015 Jörgen Maas <jorgen.maas@gmail.com>
+* Thu Apr 09 2015 Jörgen Maas <jorgen.maas@gmail.com>
 - 2.9.0 - Initial release
 
 # EOF
